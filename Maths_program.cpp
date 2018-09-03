@@ -259,12 +259,12 @@ int main()
             cout<<endl<<"Calculation Of Factorial:";
             do{
             c1.factorial();
-            system("cls");
             cout<<"\nDo you want to continue:(y/n)=";
             cin>>ch;
             system("cls");
             }
             while(ch!='n');
+            goto top;
         }
         else if(choice1==6)
         {
